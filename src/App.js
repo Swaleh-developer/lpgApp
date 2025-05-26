@@ -2,6 +2,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import StockInput from './components/StockInput';
 import Dashboard from './components/Dashboard';
+import IODemo from './components/IODemo';
 import './styles.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route path="/" element={<StockInput />} />
             <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
+          <IODemo />
         </div>
       </div>
     </Router>
